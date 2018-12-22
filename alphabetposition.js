@@ -1,3 +1,5 @@
+/* given a string, replace every letter with its position in the alphabet.*/
+
 function alphabetPosition(text) {
   text = text.replace(/\s+/g,'');
   text = text.toLowerCase();
